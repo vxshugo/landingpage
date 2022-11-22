@@ -1,13 +1,17 @@
 {
-  "name": "landingpage-react-template",
+  "name": "tiada",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "emailjs-com": "^2.6.4",
+    "i18next": "^22.0.6",
+    "i18next-browser-languagedetector": "^7.0.1",
+    "i18next-http-backend": "^2.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-i18next": "^12.0.0",
     "react-scripts": "^4.0.2",
     "smooth-scroll": "^16.1.3"
   },

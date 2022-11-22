@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, Suspense,useEffect } from "react";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
 import { Features } from "./components/features";
@@ -24,17 +24,19 @@ const App = () => {
   }, []);
 
   return (
-    <div>
-      <Navigation />
-      <Header data={landingPageData.Header} />
-      <Features data={landingPageData.Features} />
-      <About data={landingPageData.About} />
-      <Services data={landingPageData.Services} />
-      <Gallery data={landingPageData.Gallery}/>
-      <Testimonials data={landingPageData.Testimonials} />
-      <Team data={landingPageData.Team} />
-      <Contact data={landingPageData.Contact} />
-    </div>
+      <Suspense fallback={"Loading"}>
+          <div>
+              <Navigation />
+              <Header data={landingPageData.Header} />
+              <Features data={landingPageData.Features} />
+              <About data={landingPageData.About} />
+              <Services data={landingPageData.Services} />
+              <Gallery data={landingPageData.Gallery}/>
+              <Testimonials data={landingPageData.Testimonials} />
+              <Team data={landingPageData.Team} />
+              <Contact data={landingPageData.Contact} />
+          </div>
+      </Suspense>
   );
 };
 

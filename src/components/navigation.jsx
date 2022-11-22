@@ -1,5 +1,16 @@
+import React from "react";
+import {useTranslation} from "react-i18next";
+import "../i18next";
 
 export const Navigation = (props) => {
+
+  const {t, i18n} = useTranslation()
+
+  const changleLanguage = (lang) => {
+    i18n.changeLanguage(lang)
+  }
+
+
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
       <div className='container'>
@@ -28,30 +39,35 @@ export const Navigation = (props) => {
           <ul className='nav navbar-nav navbar-right'>
             <li>
               <a href='#features' className='page-scroll'>
-                Проекты
+                {t("navigation.navlinks.part1")}
               </a>
             </li>
             <li>
               <a href='#about' className='page-scroll'>
-                О нас
+                {t("navigation.navlinks.part2")}
               </a>
             </li>
             <li>
               <a href='#services' className='page-scroll'>
-                Подать заявку
+                {t("navigation.navlinks.part3")}
               </a>
             </li>
             <li>
               <a href='#contact' className='page-scroll'>
-                Контакты
+                {t("navigation.navlinks.part4")}
               </a>
             </li>
-            <li style={{marginTop: 12}}>
-              <select className="selectpicker" data-width="fit">
-                <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
-                <option data-content='<span class="flag-icon flag-icon-mx"></span> Español'>Руссий</option>
-                <option data-content='<span class="flag-icon flag-icon-mx"></span> Español'>Эспаниоль</option>
-              </select>
+            <li >
+              <a onClick={() => changleLanguage('en')} href="#">English</a>
+            </li>
+            <li>
+              <a onClick={() => changleLanguage('ru')} href="#">Руссий</a>
+            </li>
+            <li>
+              <a onClick={() => changleLanguage('ch')} href="#">China</a>
+            </li>
+            <li>
+              <a onClick={() => changleLanguage('fr')} href="#">French</a>
             </li>
           </ul>
         </div>
