@@ -36,6 +36,19 @@ export const Navigation = (props) => {
           className='collapse navbar-collapse'
           id='bs-example-navbar-collapse-1'
         >
+          <div style={{marginTop:15}} className="dropdown nav navbar-nav navbar-right">
+            <button className="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="true">
+              {t("navigation.navlinks.language")}
+              <span className="caret"></span>
+            </button>
+            <ul className="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <li><a onClick={() => changleLanguage('en')} href="#">English</a></li>
+              <li><a onClick={() => changleLanguage('ru')} href="#">Руссий</a></li>
+              <li><a onClick={() => changleLanguage('ch')} href="#">China</a></li>
+              <li><a onClick={() => changleLanguage('fr')} href="#">French</a></li>
+            </ul>
+          </div>
           <ul className='nav navbar-nav navbar-right'>
             <li>
               <a href='#features' className='page-scroll'>
@@ -56,18 +69,6 @@ export const Navigation = (props) => {
               <a href='#contact' className='page-scroll'>
                 {t("navigation.navlinks.part4")}
               </a>
-            </li>
-            <li >
-              <a onClick={() => changleLanguage('en')} href="#">English</a>
-            </li>
-            <li>
-              <a onClick={() => changleLanguage('ru')} href="#">Руссий</a>
-            </li>
-            <li>
-              <a onClick={() => changleLanguage('ch')} href="#">China</a>
-            </li>
-            <li>
-              <a onClick={() => changleLanguage('fr')} href="#">French</a>
             </li>
           </ul>
         </div>

@@ -4,7 +4,16 @@
       "part1": "项目",
       "part2": "关于我们",
       "part3": "申请",
-      "part4": "联系我们"
+      "part4": "联系我们",
+      "language": "语言"
+    },
+    "mainText": {
+      "title": "TIADA LLP",
+      "info": "国际投资财团SAS FINENTREP ASPIR（巴黎）- TIADA LLP（阿拉木图）。",
+      "button": "了解更多"
     }
+  },
+  "projects": {
+    "title": "项目"
   }
 }

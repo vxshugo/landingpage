@@ -4,7 +4,16 @@
       "part1": "PROJETS",
       "part2": "À PROPOS DE NOUS",
       "part3": "APPLY",
-      "part4": "CONTACTS"
+      "part4": "CONTACTS",
+      "language": "Langue"
+    },
+    "mainText": {
+      "title": "TIADA LLP",
+      "info": "Consortium international d'investissement SAS FINENTREP ASPIR (Paris) - TIADA LLP (Almaty)",
+      "button": "Pour en savoir plus"
     }
+  },
+  "projects": {
+    "title": "PROJETS"
   }
 }
