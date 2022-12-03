@@ -14,6 +14,22 @@
     }
   },
   "projects": {
-    "title": "PROJETS"
+    "title": "PROJETS",
+    "sub1": "OPPORTUNITÉS",
+    "sub2": "BUDGET",
+    "sub3": "Montant de l'investissement requis",
+    "sub4": "Lire la suite",
+    "project-1": {
+      "first": {
+        "id": 0,
+        "title": "Création d'un centre de vente en gros et de distribution de produits agricoles à Kamyshlov, dans la région de Sverdlovsk",
+        "img": "https://www.investinregions.ru/upload/resize_cache/iblock/6ca/1312_266_2/123-_1_.jpg",
+        "country": "Région de Sverdlovsk",
+        "budzhet": "3 300 000",
+        "count": "3 300 000",
+        "otrasl": "Logistique, transport et stockage",
+        "desc": ""
+      }
+    }
   }
 }

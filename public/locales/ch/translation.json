@@ -14,6 +14,22 @@
     }
   },
   "projects": {
-    "title": "项目"
+    "title": "项目",
+    "sub1": "机会",
+    "sub2": "预算",
+    "sub3": "需要的投资金额",
+    "sub4": "阅读更多",
+    "project-1": {
+      "first": {
+        "id": 0,
+        "title": "在斯维尔德洛夫斯克地区的卡米斯洛夫建立一个农产品批发和分销中心",
+        "img": "https://www.investinregions.ru/upload/resize_cache/iblock/6ca/1312_266_2/123-_1_.jpg",
+        "country": "斯维尔德洛夫斯克地区",
+        "budzhet": "3 300 000",
+        "count": "3 300 000",
+        "otrasl": "物流、运输和仓储",
+        "desc": ""
+      }
+    }
   }
 }

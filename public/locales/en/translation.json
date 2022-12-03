@@ -14,6 +14,22 @@
     }
   },
   "projects": {
-    "title": "PROJECTS"
+    "title": "PROJECTS",
+    "sub1": "DISCUSSION",
+    "sub2": "BUDGET",
+    "sub3": "AMOUNT OF INVESTMENT REQUIRED",
+    "sub4": "Read more",
+    "project-1": {
+      "first": {
+        "id": 0,
+        "title": "Creation of a wholesale and distribution center for agricultural products in Kamyshlov, Sverdlovsk region",
+        "img": "https://www.investinregions.ru/upload/resize_cache/iblock/6ca/1312_266_2/123-_1_.jpg",
+        "country": "Sverdlovsk region",
+        "budzhet": "3 300 000",
+        "count": "3 300 000",
+        "otrasl": "Logistics, transportation and storage",
+        "desc": ""
+      }
+    }
   }
 }
