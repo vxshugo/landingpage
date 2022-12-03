@@ -29,6 +29,26 @@
         "count": "3 300 000",
         "otrasl": "Logistics, transportation and storage",
         "desc": ""
+      },
+      "second": {
+        "id": 1,
+        "title": "Production of fruits and vegetables in open and closed ground",
+        "img": "https://www.investinregions.ru/upload/resize_cache/iblock/b1f/1312_266_2/tomatoes_gbb28aa383_1920.jpg",
+        "country": "Krasnodar Territory",
+        "budzhet": "325 000",
+        "count": "250 000",
+        "otrasl": "Agriculture, forestry, hunting, fishing",
+        "desc": ""
+      },
+      "third": {
+        "id": 2,
+        "title": "Development of a drinking water deposit and construction of a bottled water and juice drinks facility",
+        "img": "https://www.investinregions.ru/upload/resize_cache/iblock/161/1312_266_2/water_g723f042e3_1920.jpg",
+        "country": "Stavropol Territory",
+        "budzhet": "2 057 000",
+        "count": "1 851 000",
+        "otrasl": "Agriculture, forestry, hunting, fishing",
+        "desc": ""
       }
     }
   }

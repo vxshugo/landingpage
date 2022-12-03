@@ -29,6 +29,26 @@
         "count": "3 300 000",
         "otrasl": "物流、运输和仓储",
         "desc": ""
+      },
+      "second": {
+        "id": 1,
+        "title": "露天和封闭地面的水果和蔬菜生产",
+        "img": "https://www.investinregions.ru/upload/resize_cache/iblock/b1f/1312_266_2/tomatoes_gbb28aa383_1920.jpg",
+        "country": "克拉斯诺达尔边疆区",
+        "budzhet": "325 000",
+        "count": "250 000",
+        "otrasl": "农业、林业、狩猎、渔业",
+        "desc": ""
+      },
+      "third": {
+        "id": 2,
+        "title": "开发一个饮用水矿床和建造一个瓶装水和果汁饮料设施",
+        "img": "https://www.investinregions.ru/upload/resize_cache/iblock/161/1312_266_2/water_g723f042e3_1920.jpg",
+        "country": "斯塔夫罗波尔边疆区",
+        "budzhet": "2 057 000",
+        "count": "1 851 000",
+        "otrasl": "农业、林业、狩猎、渔业",
+        "desc": ""
       }
     }
   }

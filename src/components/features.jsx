@@ -20,6 +20,22 @@ export const Features = (props) => {
                 count={t("projects.project-1.first.count")}
                 otrasl={t("projects.project-1.first.otrasl")}
             />
+            <Card
+                img={t("projects.project-1.second.img")}
+                title={t("projects.project-1.second.title")}
+                budzhet={t("projects.project-1.second.budzhet")}
+                country={t("projects.project-1.second.country")}
+                count={t("projects.project-1.second.count")}
+                otrasl={t("projects.project-1.second.otrasl")}
+            />
+            <Card
+                img={t("projects.project-1.third.img")}
+                title={t("projects.project-1.third.title")}
+                budzhet={t("projects.project-1.third.budzhet")}
+                country={t("projects.project-1.third.country")}
+                count={t("projects.project-1.third.count")}
+                otrasl={t("projects.project-1.third.otrasl")}
+            />
         </div>
       </div>
     </div>
