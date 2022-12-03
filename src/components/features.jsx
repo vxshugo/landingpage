@@ -11,7 +11,7 @@ export const Features = (props) => {
         <div className='col-md-10 col-md-offset-1 section-title'>
           <h2>{t("projects.title")}</h2>
         </div>
-        <div className="container">
+        <div className="container project-block">
             <Card
                 img={t("projects.project-1.first.img")}
                 title={t("projects.project-1.first.title")}
