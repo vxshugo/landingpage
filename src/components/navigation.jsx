@@ -59,12 +59,12 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a href='#about' className='page-scroll'>
+              <Link to={"/about"} >
                 {t("navigation.navlinks.part2")}
-              </a>
+              </Link>
             </li>
             <li>
-              <a href='#services' className='page-scroll'>
+              <a href='#podatzayavku' className='page-scroll'>
                 {t("navigation.navlinks.part3")}
               </a>
             </li>

@@ -36,7 +36,7 @@ const Form = () => {
             )
     }
   return(
-      <div className="col-md-8">
+      <div className="col-md-10">
           <form name='sentMessage' validate onSubmit={handleSubmit}>
               <div className='row'>
                   <div className='col-md-6'>

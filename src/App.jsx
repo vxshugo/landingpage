@@ -11,6 +11,7 @@ import Main from "./pages/Main";
 import FirstProject from "./pages/Project/firstProject";
 import SecondProject from "./pages/Project/secondProject";
 import ThirdProject from "./pages/Project/thirdProject";
+import AboutUs from "./pages/AboutUs/aboutUs";
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
   speedAsDuration: true,
@@ -30,6 +31,7 @@ const App = () => {
                   <Route exact path={"/1"} element={<FirstProject/>}/>
                   <Route exact path={"/2"} element={<SecondProject/>}/>
                   <Route exact path={"/3"} element={<ThirdProject/>}/>
+                  <Route exact path={"/about"} element={<AboutUs/>}/>
               </Routes>
               {/*<Navigation />*/}
               {/*<Header/>*/}

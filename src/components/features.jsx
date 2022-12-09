@@ -1,9 +1,8 @@
 import {useTranslation} from "react-i18next";
 import Card from "./Card";
-import {useEffect, useState} from "react";
 
 export const Features = (props) => {
-    const {t, i18n} = useTranslation()
+    const {t} = useTranslation()
 
   return (
     <div id='features' className='text-center'>
