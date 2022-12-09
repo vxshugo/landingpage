@@ -1,6 +1,7 @@
 import React from "react";
 import {useTranslation} from "react-i18next";
 import "../i18next";
+import {Link} from "react-router-dom";
 
 export const Navigation = (props) => {
 
@@ -28,7 +29,9 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='page-scroll' href='#page-top'>
-            <img width={100} src="img/logo.png" alt=""/>
+            <Link to={"/"}>
+              <img width={100} src="img/logo.png" alt=""/>
+            </Link>
           </a>{' '}
         </div>
 

@@ -13,12 +13,21 @@
       "button": "learn more"
     }
   },
+  "form": {
+    "value1": "Name",
+    "value2": "BIN or Business Registration Number",
+    "value3": "Email",
+    "value4": "Company manager"
+  },
   "projects": {
     "title": "PROJECTS",
     "sub1": "DISCUSSION",
+    "sub6": "DESCRIPTION",
     "sub2": "BUDGET",
     "sub3": "AMOUNT OF INVESTMENT REQUIRED",
     "sub4": "Read more",
+    "Type": "Type of project",
+    "sub5": "Form of required funding",
     "project-1": {
       "first": {
         "id": 0,
@@ -28,7 +37,14 @@
         "budzhet": "3 300 000",
         "count": "3 300 000",
         "otrasl": "Logistics, transportation and storage",
-        "desc": ""
+        "desc": "The essence of the project is to launch a production complex for receiving,\nstorage, processing and sales of agricultural products.\n\nTechnical and economic indicators of the projected objects\nof the projected objects of capital construction:\n\n- The area of the land plot 66:46:0108003:1190 - 144 133 sq.m.\n\n- The area of the territory to be improved - 129,295 sq.m.\n\n- Building area (all projected buildings) - 35 599 sq.m.\n\n- Percentage of development - 26%\n\n- Percentage of greening - 33%.\n\nThe ORC will include the following objects:\n4 year-round vegetable storage (multiproduct) with total capacity of one-time storage of 26 800 tons (potatoes);\nshop for pre-processing, packing and deep processing of vegetables;\na logistics distribution center, which provides transshipment and storage of\nfood products at different temperature regimes, the capacity of one-time storage of 5 040 tons.\n\nProducts and services of the LRC:\nvegetables (potatoes, cabbage, beets, carrots, onions) packed in nets, including washed;\nprocessed vegetables - peeled, sterilized and pasteurized, packed in vacuum bags; dry potato flakes.\nDistribution center services - short-term storage, loading and unloading, cross-docking, bundling of product lots.\n\nThe project is expected to be implemented in 3 stages:\nPhase 1 - 6,700 tons of vegetable storage and processing shop - 2023-2024; \n\nPhase 2 - vegetable storage of 6700 tons, a distribution center of 5040 tons - 2024-2025; \n\nPhase 3 - Vegetable storage 13400 tons - 2025-2026.",
+        "type": "Creation of new production",
+        "sub1": "debt financing / bank loan",
+        "sub2": "participation in the authorized capital / purchase of shares",
+        "link1": "Project presentation",
+        "link2": "Project implementation",
+        "link3": "Market description",
+        "link4": "Socio-economic effectiveness of the project"
       },
       "second": {
         "id": 1,
@@ -38,7 +54,9 @@
         "budzhet": "325 000",
         "count": "250 000",
         "otrasl": "Agriculture, forestry, hunting, fishing",
-        "desc": ""
+        "desc": "This project involves the implementation of investment measures for the construction of a 1 hectare greenhouse complex for growing vegetables and open field crops on irrigated land plots of 65 hectares, as well as table grapes in Yeisky district of Krasnodar region. The project is initiated by the Agricultural Consumer Supply and Distribution Cooperative \"Yeisky AGROSOYUZ\". \n\n     Vegetable production in the off-season period is possible only in the protected ground. The most effective way is to grow agricultural products in modern industrial greenhouses. \n\n     Modern industrial greenhouse - a complex of engineering and technical equipment, which creates favorable conditions not only for the comfortable growth of plants, but also contributes to achieving high yields using modern methods of agricultural technology. \n\n     The project also envisages the cultivation of beets, carrots and grapes in Yeisk district according to the Dutch technology. Dutch technology involves growing hybrids of high-yielding varieties of vegetables and grapes, using imported and high-performance equipment, namely, sprinklers circular type.\n\n      This business plan considers the construction of a greenhouse complex with high-tech equipment for growing vegetables in protected areas and the purchase of an irrigation system.\n\nWithin the framework of this project there is a feasibility study and planned investments for the sum of 250 million rubles.  The total project amount is 325 million rubles.",
+        "type": "Expansion of existing production",
+        "sub1": "debt financing / bank loan"
       },
       "third": {
         "id": 2,
@@ -48,7 +66,11 @@
         "budzhet": "2 057 000",
         "count": "1 851 000",
         "otrasl": "Agriculture, forestry, hunting, fishing",
-        "desc": ""
+        "desc": "The project involves construction of a bottling plant for bottled natural mineral water and natural (artesian) drinking water of the highest category with a total design capacity of 115.0 million liters per year.\nDesign work on the Project stage was completed. A positive conclusion of the state expert examination and a permit to construct the facility were obtained.\nAn exploration and development well was assembled and equipped at the area, and a well capping facility was built.\nThe installation works on the technical connection of the power line with the capacity of 100 KW have been performed. A 60 m long drainage line with an absorbing well has been installed. Provided access with a light surface.",
+        "type": "New construction / launch of new production",
+        "sub1": "debt financing / bank loan",
+        "sub2": "participation in the share capital / purchase of shares",
+        "otrasl2": "Construction"
       }
     }
   }

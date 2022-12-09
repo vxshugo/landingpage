@@ -13,12 +13,21 @@
       "button": "Pour en savoir plus"
     }
   },
+  "form": {
+    "value1": "Nom",
+    "value2": "BIN ou numéro d'enregistrement de l'entreprise",
+    "value3": "Courriel",
+    "value4": "Chef d'entreprise"
+  },
   "projects": {
     "title": "PROJETS",
     "sub1": "OPPORTUNITÉS",
+    "sub6": "DESCRIPTION",
     "sub2": "BUDGET",
     "sub3": "Montant de l'investissement requis",
     "sub4": "Lire la suite",
+    "Type": "Type de projet",
+    "sub5": "Forme de financement requise",
     "project-1": {
       "first": {
         "id": 0,
@@ -28,7 +37,14 @@
         "budzhet": "3 300 000",
         "count": "3 300 000",
         "otrasl": "Logistique, transport et stockage",
-        "desc": ""
+        "desc": "L'essence du projet est de lancer un complexe de production pour la réception,\nle stockage, la transformation et la vente de produits agricoles.\n\nIndicateurs techniques et économiques des installations projetées\ndes objets projetés de la construction d'immobilisations :\n\n- La superficie de la parcelle 66:46:0108003:1190 - 144 133 m².\n\n- La superficie de la zone aménagée - 129 295 m².\n\n- Superficie des bâtiments (tous les bâtiments projetés) - 35 599 m².\n\n- Pourcentage de développement - 26\n\n- Pourcentage de verdissement - 33%.\n\nLa CCO comprendra les installations suivantes :\n4 entrepôts de légumes à l'année (multiproduits) d'une capacité totale de 26 800 tonnes (pour les pommes de terre) ;\nune installation de prétraitement, d'emballage et de traitement en aval ;\nun centre de distribution logistique pour le transbordement et le stockage de\nproduits alimentaires à différents régimes de température ; et une capacité de stockage ponctuel de 5 040 tonnes.\n\nLes produits et services du centre comprennent :\nlégumes (pommes de terre, choux, betteraves, carottes, oignons) emballés dans des filets, y compris lavés ;\nlégumes transformés - épluchés, stérilisés et pasteurisés, emballés sous vide ; flocons de pommes de terre secs.\nServices de centres de distribution - stockage à court terme, chargement et déchargement, transbordement, préparation des envois.\n\nLe projet devrait être mis en œuvre en 3 phases :\nPhase 1 - une installation de stockage et de traitement des légumes de 6 700 tonnes - 2023-2024 ; \n\nPhase 2 - stockage de légumes de 6700 tonnes, centre de distribution de 5040 tonnes - 2024-2025 ; et \n\nPhase 3 - stockage de légumes 13400 tonnes - 2025-2026.",
+        "type": "Création d'une nouvelle unité de production",
+        "sub1": "financement par emprunt / prêt bancaire",
+        "sub2": "participation / achat d'actions",
+        "link1": "Présentation du projet",
+        "link2": "Mise en œuvre du projet",
+        "link3": "Description du marché",
+        "link4": "Efficacité socio-économique du projet"
       },
       "second": {
         "id": 1,
@@ -38,7 +54,10 @@
         "budzhet": "325 000",
         "count": "250 000",
         "otrasl": "Agriculture, sylviculture, chasse, pêche",
-        "desc": ""
+        "desc": "Ce projet concerne la mise en œuvre de mesures d'investissement pour la construction d'un complexe de serres d'un hectare pour la culture de légumes et de cultures de plein champ sur des parcelles irriguées de 65 hectares, ainsi que de raisins de table dans le district de Yeisky de la région de Krasnodar. Le projet est initié par la coopérative d'approvisionnement et de commercialisation des consommateurs agricoles Yeisky AGROSOYUZ. \n\n     La production de légumes en contre-saison n'est possible que dans les zones protégées. La méthode la plus efficace consiste à cultiver des produits agricoles dans des serres industrielles modernes. \n\n     Une serre industrielle moderne est un complexe d'ingénierie et d'équipement technique qui crée des conditions favorables non seulement pour une croissance confortable des plantes, mais qui contribue également à l'obtention de rendements élevés grâce aux techniques agricoles modernes. \n\n     Le projet prévoit également la culture de betteraves, de carottes et de raisins dans le district de Yeisky à l'aide de la technologie néerlandaise. La technologie néerlandaise consiste à cultiver des hybrides de variétés de légumes et de raisins à haut rendement, en utilisant des machines importées et très productives, à savoir des arroseurs de type circulaire.\n\n      Ce plan d'affaires prévoit la construction d'un complexe de serres doté d'équipements de haute technologie pour la culture de légumes dans des zones protégées et l'achat d'un système d'irrigation.\n\nUne étude de faisabilité a été élaborée pour ce projet dont les investissements prévus s'élèvent à 250 millions RUB.  Le montant total du projet est de 325 millions de roubles.",
+        "type": "Expansion de la production existante",
+        "sub1": "financement par emprunt / prêt bancaire"
+
       },
       "third": {
         "id": 2,
@@ -48,7 +67,11 @@
         "budzhet": "2 057 000",
         "count": "1 851 000",
         "otrasl": "Agriculture, sylviculture, chasse, pêche",
-        "desc": ""
+        "desc": "Le projet prévoit la construction d'une installation d'embouteillage d'eau minérale naturelle et d'eau potable naturelle (artésienne) de la plus haute catégorie, d'une capacité nominale totale de 115,0 millions de litres par an.\nLes travaux de conception de l'étape du projet ont été achevés. Une conclusion positive de l'expertise d'État et un permis de construire l'installation ont été obtenus.\nUn puits d'exploration et de production a été assemblé et équipé sur le site, et une installation de bouchage de puits a été construite.\nLes travaux d'installation pour le raccordement technique de la ligne de transport d'électricité d'une capacité de 100 kW ont été réalisés. Une ligne de dérivation des eaux avec un puits d'absorption de 60 m de long a été installée. Une route d'accès avec une surface légère a été construite.",
+        "type": "Nouvelle construction / démarrage d'une nouvelle production",
+        "sub1": "financement par emprunt / prêt bancaire",
+        "sub2": "participation / achat d'actions",
+        "otrasl2": "Construction"
       }
     }
   }

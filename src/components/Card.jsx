@@ -1,5 +1,6 @@
 import {useTranslation} from "react-i18next";
 import styled from 'styled-components';
+import {Link} from "react-router-dom";
 
 const Adress = styled.a`
   position: relative;
@@ -46,7 +47,7 @@ const Button = styled.a`
   color: white;
 `
 
-const Card = ({img,country, title, otrasl, budzhet, count}) => {
+const Card = ({img,country, title, otrasl, budzhet, count, link}) => {
 
     const {t, i18n} = useTranslation()
 
@@ -82,9 +83,11 @@ const Card = ({img,country, title, otrasl, budzhet, count}) => {
               </ul>
 
               <div style={{paddingBottom: 20}}>
-                  <Button href="#">
-                      {t("projects.sub4")}
-                  </Button>
+                      <Link to={`/${link}`}>
+                          <Button>
+                              {t("projects.sub4")}
+                          </Button>
+                      </Link>
               </div>
           </div>
       </div>

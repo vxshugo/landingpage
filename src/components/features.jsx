@@ -19,6 +19,7 @@ export const Features = (props) => {
                 country={t("projects.project-1.first.country")}
                 count={t("projects.project-1.first.count")}
                 otrasl={t("projects.project-1.first.otrasl")}
+                link={1}
             />
             <Card
                 img={t("projects.project-1.second.img")}
@@ -27,6 +28,7 @@ export const Features = (props) => {
                 country={t("projects.project-1.second.country")}
                 count={t("projects.project-1.second.count")}
                 otrasl={t("projects.project-1.second.otrasl")}
+                link={2}
             />
             <Card
                 img={t("projects.project-1.third.img")}
@@ -35,6 +37,7 @@ export const Features = (props) => {
                 country={t("projects.project-1.third.country")}
                 count={t("projects.project-1.third.count")}
                 otrasl={t("projects.project-1.third.otrasl")}
+                link={3}
             />
         </div>
       </div>

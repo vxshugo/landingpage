@@ -246,7 +246,6 @@ header .intro-text {
 }
 /* Features Section */
 #features {
-  padding-top: 50px;
   padding-bottom: 50px;
   background: #f6f6f6;
 }
@@ -610,7 +609,114 @@ label {
   border-bottom: 1px solid #C4C4C4;
   margin-bottom: 10px;
 }
+.buttons-card{
+  display: flex;
+  margin-top: 96px;
+  flex-wrap: wrap;
+  align-content: stretch;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-direction: row;
+  text-align: left;
+}
+.top-card-1{
+  margin-left: 0;
+  border-top: 3px solid #c4c4c4;
+}
+.top-card-2{
+  border-top: 3px solid #c4c4c4;
+  margin-left: 2.43902%;
+}
+.bottom-card-3{
+  margin-left: 0;
+  border-bottom: 3px solid #c4c4c4;
+}
+.bottom-card-4{
+  border-bottom: 3px solid #c4c4c4;
+  margin-left: 2.43902%;
+}
+.card-text{
+  flex: 0 1 auto;
+  margin-top: 12px;
+  margin-right: 16px;
+  width: 100%;
+  max-width: 416px;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #0D47A1;
+  position: relative;
+
+}
+.card-text:before{
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: 0;
+  width: 44px;
+  height: 4px;
+  background: #0D47A1;
+}
+.card-price-more{
+  display: flex;
+}
+.card-img-more{
+  padding-right: 50px;
+  width: 70%;
+}
+.block-about{
+  width: 48.78049%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 139px;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  align-items: center;
+  padding: 0 39px;
+  cursor: pointer;
+}
+.toggle{
+  flex: 0 0 auto;
+  width: 24px;
+  height: 24px;
+  background: url("https://www.investinregions.ru/bitrix/templates/iir/img/icon-plus.svg") 0 0 no-repeat;
+  background-size: contain;
+}
+
 @media (max-width: 768px) {
+  .card-price-more{
+    display: flex;
+    flex-direction: column;
+  }
+  .buttons-card{
+    flex-direction: column;
+  }
+  .block-about{
+    width: 100%;
+  }
+  .top-card-1{
+    border-top: 3px solid #c4c4c4;
+  }
+  .top-card-2{
+    border-top: 1px solid #c4c4c4;
+    margin-left: 0;
+  }
+  .bottom-card-3{
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+  }
+  .bottom-card-4{
+    border-bottom: 3px solid #c4c4c4;
+    margin-left: 0;
+  }
+  .resp{
+    font-size: 24px;
+  }
+  .card-img-more{
+    width: 100%;
+    padding-right: 0;
+  }
   #about img {
     margin: 50px 0;
   }
