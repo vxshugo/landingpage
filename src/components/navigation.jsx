@@ -59,7 +59,7 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <Link to={"/about"} >
+              <Link to={'/about'}>
                 {t("navigation.navlinks.part2")}
               </Link>
             </li>
