@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import emailjs from "emailjs-com";
 import {useTranslation} from "react-i18next";
+import { toast } from "react-toastify";
 
 const initialState = {
     user_name: '',
@@ -12,6 +13,8 @@ const initialState = {
 const Form = () => {
     const {t} = useTranslation()
     const [{ user_name, user_bin, email, user_ceo}, setState] = useState(initialState)
+
+
 
     const handleChange = (e) => {
         const { name, value } = e.target
@@ -27,11 +30,11 @@ const Form = () => {
             )
             .then(
                 (result) => {
-                    console.log(result.text)
+                    toast.success(`${t("alert")}`);
                     clearState()
                 },
                 (error) => {
-                    console.log(error.text)
+                    toast.error(`${error.text}`);
                 }
             )
     }
@@ -98,7 +101,7 @@ const Form = () => {
               </div>
               <div id='success'></div>
               <button type='submit' className='btn btn-custom btn-lg'>
-                  Send Message
+                  {t("button")}
               </button>
           </form>
       </div>

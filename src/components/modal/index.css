@@ -1,0 +1,213 @@
+
+.modal{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(0,0,0,0.4);
+    position: fixed;
+    overflow-x: hidden;
+    overflow-y: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+    z-index: 19999999;
+}
+.modal.active{
+    opacity: 1;
+    pointer-events: all;
+}
+.modal__content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    background: #fff;
+    max-width: 864px;
+    width: calc(100% + 20px);
+    margin-left: -10px;
+    margin-right: -10px;
+    border-radius: 0;
+    transform: scale(0);
+    transition: 0.4s all;
+}
+.close{
+    z-index: 2;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 16px;
+    height: 16px;
+    background: url("https://www.investinregions.ru/bitrix/templates/iir/img/icon-close.svg") 0 0 no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+.Caption__modal{
+    margin-top: 28px;
+    flex: 0 0 auto;
+    position: relative;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: stretch;
+    width: 100%;
+    padding: 64px 56px 48px;
+}
+.Caption__modal h2{
+    color: #0D47A1;
+    text-align: left;
+}
+ .table{
+     width: 100%;
+     border-collapse: collapse;
+     border: 0;
+     border-bottom: 1px #C4C4C4 solid;
+     padding: 0;
+     border-spacing: 0;
+     margin-top: 36px;
+ }
+ .table td{
+     padding-top: 16px;
+     padding-bottom: 16px;
+     text-align: left;
+     vertical-align: top;
+     border-top: 1px #C4C4C4 solid;
+ }
+.table td.caption .name{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2B2B2B;
+ }
+.table td.value{
+    width: 322px;
+    padding-left: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2B2B2B;
+    text-align: right;
+ }
+
+.text{
+    margin-top: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    -webkit-font-feature-settings: 'kern' off;
+    font-feature-settings: 'kern' off;
+    color: #2B2B2B;
+}
+.text h3{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #0D47A1;
+    margin: 24px 0;
+}
+.text h3:first-child{
+    margin-top: 0;
+}
+.text ul{
+    list-style-type: none;
+    margin: 0 0 0 16px;
+}
+.text ul li{
+    position: relative;
+    padding-left: 29px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2B2B2B;
+}
+.text ul li:before{
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 13px;
+    height: 10px;
+    background: url("https://www.investinregions.ru/bitrix/templates/iir/img/icon-check.svg") 0 0 no-repeat;
+    background-size: contain;
+}
+.panel{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-items: stretch;
+    margin-top: 32px;
+    padding-top: 24px;
+    border-top: 1px #c4c4c4 solid;
+}
+.close-button{
+    cursor: pointer;
+    display: block;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    user-select: none;
+    border: 0;
+     background-color: #0D47A1;
+    background-image: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
+    padding: 7px 16px 8px;
+    outline: 0;
+}
+.Caption__modal:before{
+    content: "";
+    position: absolute;
+    top: -28px;
+    left: 0;
+    width: 80px;
+    height: 4px;
+    background: #0D47A1;
+}
+.modal__content.active{
+    transform: scale(1);
+}
+@media (max-width: 680px){
+
+}
+@media (max-width: 480px){
+    .content{
+        padding: 32px 16px 48px;
+    }
+    .text ul li{
+        font-size: 14px;
+    }
+    h2{
+        margin-top: 20px;
+        font-size: 24px;
+        line-height: 37px;
+        word-break: break-word;
+    }
+}

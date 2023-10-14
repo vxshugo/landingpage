@@ -48,7 +48,6 @@ export const Navigation = (props) => {
             <ul className="dropdown-menu" aria-labelledby="dropdownMenu1">
               <li><a onClick={() => changleLanguage('en')} href="#">English</a></li>
               <li><a onClick={() => changleLanguage('ru')} href="#">Руссий</a></li>
-              <li><a onClick={() => changleLanguage('ch')} href="#">China</a></li>
               <li><a onClick={() => changleLanguage('fr')} href="#">French</a></li>
             </ul>
           </div>

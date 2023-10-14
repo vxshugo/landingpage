@@ -13,6 +13,9 @@
       "button": "learn more"
     }
   },
+  "contact": "Contact info",
+  "button": "Send request",
+  "alert": "The application has been sent !",
   "form": {
     "value1": "Name",
     "value2": "BIN or Business Registration Number",
@@ -113,9 +116,69 @@
         "sub1": "debt financing / bank loan",
         "sub2": "participation in the authorized capital / purchase of shares",
         "link1": "Project presentation",
+        "link1-2": "Investment figures",
         "link2": "Project implementation",
         "link3": "Market description",
-        "link4": "Socio-economic effectiveness of the project"
+        "link4": "Socio-economic effectiveness of the project",
+        "inv": {
+          "item": {
+            "i": "Project budget",
+            "l": "3 300 000 ₽"
+          },
+          "item1": {
+            "i": "... of which capital investments",
+            "l": "3 300 000 ₽"
+          },
+          "item2": {
+            "i": "Need for external investments",
+            "l": "3 300 000  ₽\n100,0% of the project budget"
+          },
+          "item3": {
+            "i": "Form of required funding",
+            "l": "debt finance / bank loan\nparticipation in the authorized capital / purchase of shares"
+          },
+          "item4": {
+            "i": "Share of own funds in the project budget",
+            "l": "10,0%"
+          },
+          "item5": {
+            "i": "IRR",
+            "l": "21,7%"
+          },
+          "item6": {
+            "i": "NPV",
+            "l": "19 200 000 ₽"
+          },
+          "item7": {
+            "i": "PBP",
+            "l": "100 months"
+          }
+        },
+        "real": {
+          "item": {
+            "i": "Estimated start date of the project",
+            "l": "2022"
+          },
+          "item1": {
+            "i": "Estimated date of reaching operational capacity",
+            "l": "2024"
+          },
+          "ul": {
+            "title": "Current stage of implementation",
+            "i1": "A project concept has been developed",
+            "i2": "Project idea",
+            "i3": "Design and estimate documentation has been developed",
+            "i4": "The technical documentation for the project has been prepared"
+          }
+        },
+        "ops": {
+          "item1": "Has market research been conducted?",
+          "item2": "our own research"
+        },
+        "soc": {
+          "item": "Informations sur le soutien apporté au projet par les ministères et organismes fédéraux et régionaux",
+          "item1": "Intérêt pour le projet de la part du ministère de l'investissement et du développement de la région de Sverdlovsk."
+        }
       },
       "second": {
         "id": 1,
@@ -127,7 +190,49 @@
         "otrasl": "Agriculture, forestry, hunting, fishing",
         "desc": "This project involves the implementation of investment measures for the construction of a 1 hectare greenhouse complex for growing vegetables and open field crops on irrigated land plots of 65 hectares, as well as table grapes in Yeisky district of Krasnodar region. The project is initiated by the Agricultural Consumer Supply and Distribution Cooperative \"Yeisky AGROSOYUZ\". \n\n     Vegetable production in the off-season period is possible only in the protected ground. The most effective way is to grow agricultural products in modern industrial greenhouses. \n\n     Modern industrial greenhouse - a complex of engineering and technical equipment, which creates favorable conditions not only for the comfortable growth of plants, but also contributes to achieving high yields using modern methods of agricultural technology. \n\n     The project also envisages the cultivation of beets, carrots and grapes in Yeisk district according to the Dutch technology. Dutch technology involves growing hybrids of high-yielding varieties of vegetables and grapes, using imported and high-performance equipment, namely, sprinklers circular type.\n\n      This business plan considers the construction of a greenhouse complex with high-tech equipment for growing vegetables in protected areas and the purchase of an irrigation system.\n\nWithin the framework of this project there is a feasibility study and planned investments for the sum of 250 million rubles.  The total project amount is 325 million rubles.",
         "type": "Expansion of existing production",
-        "sub1": "debt financing / bank loan"
+        "sub1": "debt financing / bank loan",
+        "inv": {
+          "item": {
+            "i": "Project budget",
+            "l": "325 000 ₽"
+          },
+          "item1": {
+            "i": "Потребность во внешних инвестициях",
+            "l": "250 000  ₽\n70,0% of the project budget"
+          },
+          "item2": {
+            "i": "Form of required funding",
+            "l": "debt financing / bank loan"
+          },
+          "item3": {
+            "i": "Share of own funds in the project budget",
+            "l": "30,0%"
+          },
+          "item4": {
+            "i": "IRR",
+            "l": "34,8%"
+          },
+          "item5": {
+            "i": "NPV",
+            "l": "73 946 ₽"
+          },
+          "item6": {
+            "i": "PBP",
+            "l": "31 months"
+          }
+        },
+        "real": {
+          "ul": {
+            "title": "Current stage of implementation",
+            "i1": "A business plan and financial model of the project were developed",
+            "i2": "Project idea",
+            "i3": "A project concept has been developed"
+          }
+        },
+        "ops": {
+          "item1": "Has market research been conducted?",
+          "item2": "our own research"
+        }
       },
       "third": {
         "id": 2,
@@ -141,7 +246,52 @@
         "type": "New construction / launch of new production",
         "sub1": "debt financing / bank loan",
         "sub2": "participation in the share capital / purchase of shares",
-        "otrasl2": "Construction"
+        "otrasl2": "Construction",
+        "inv": {
+          "item": {
+            "i": "Project budget",
+            "l": "2 057 000 ₽"
+          },
+          "item1": {
+            "i": "Need for external investments",
+            "l": "1 851 000 ₽\n90,0% of the project budget"
+          },
+          "item2": {
+            "i": "Форма требуемого финансирования",
+            "l": "debt financing / bank loan\nparticipation in the authorized capital / purchase of shares"
+          },
+          "item3": {
+            "i": "Share of own funds in the project budget",
+            "l": "10,0%"
+          },
+          "item4": {
+            "i": "IRR",
+            "l": "27%"
+          },
+          "item5": {
+            "i": "PBP",
+            "l": "85 months"
+          }
+        },
+        "real": {
+          "item": {
+            "i": "Estimated start date of the project",
+            "l": "2022"
+          },
+          "item1": {
+            "i": "Estimated date of reaching operational capacity",
+            "l": "2024"
+          },
+          "ul": {
+            "title": "Current stage of implementation",
+            "i1": "Project idea",
+            "i2": "The technical documentation for the project has been prepared",
+            "i3": "Permission for project implementation (construction, operation, etc.) obtained",
+            "i4": "A business plan and financial model of the project were developed",
+            "i5": "Contracts with contractors/suppliers signed",
+            "i6": "A project concept has been developed"
+          }
+        }
       }
     }
   }

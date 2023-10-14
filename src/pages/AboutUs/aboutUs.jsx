@@ -1,5 +1,6 @@
 import {Navigation} from "../../components/navigation";
 import {useTranslation} from "react-i18next";
+import {Contact} from "../../components/contact";
 
 const AboutUs = () => {
     const {t} = useTranslation()
@@ -93,6 +94,7 @@ const AboutUs = () => {
                   </div>
               </div>
           </div>
+          <Contact/>
       </div>
   )
 }

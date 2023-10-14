@@ -4,6 +4,11 @@ import {Navigation} from "../../components/navigation";
 import {Carousel} from "react-responsive-carousel";
 import Form from "../../components/Form";
 import styled from "styled-components";
+import React from "react";
+import First from "../../components/secondProjectCard/first";
+import Second from "../../components/secondProjectCard/second";
+import Thir from "../../components/secondProjectCard/thir";
+import {Contact} from "../../components/contact";
 
 const SecondProject = () => {
     const [show, setShow] = useState(false)
@@ -63,6 +68,11 @@ const SecondProject = () => {
                         <span style={{whiteSpace: "pre-line", fontSize: 18}}>{t("projects.project-1.second.desc")}</span>
                     </div>
                     <div className="buttons-card">
+                        <First/>
+                        <Second/>
+                        <Thir/>
+                    </div>
+                    <div className="buttons-card">
                         <div className="block-about top-card-1" onClick={toggle}>
                             <div className="card-text">
                                 {t("projects.project-1.first.link1")}
@@ -70,34 +80,11 @@ const SecondProject = () => {
                             <div className="toggle">
                             </div>
                         </div>
-                        {/*<div className="block-about top-card-2">*/}
-                        {/*    <div className="card-text">*/}
-                        {/*        {t("projects.project-1.first.link2")}*/}
-                        {/*    </div>*/}
-                        {/*    <div className="toggle">*/}
-
-                        {/*    </div>*/}
-                        {/*</div>*/}
-                        {/*<div className="block-about bottom-card-3">*/}
-                        {/*    <div className="card-text">*/}
-                        {/*        {t("projects.project-1.first.link3")}*/}
-                        {/*    </div>*/}
-                        {/*    <div className="toggle">*/}
-
-                        {/*    </div>*/}
-                        {/*</div>*/}
-                        {/*<div className="block-about bottom-card-4">*/}
-                        {/*    <div className="card-text">*/}
-                        {/*        {t("projects.project-1.first.link4")}*/}
-                        {/*    </div>*/}
-                        {/*    <div className="toggle">*/}
-
-                        {/*    </div>*/}
-                        {/*</div>*/}
                     </div>
                     { show == true ? <Form/> : <></>}
                 </div>
             </div>
+            <Contact/>
         </div>
     )
 }

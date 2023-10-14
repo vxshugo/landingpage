@@ -13,12 +13,15 @@
       "button": "Pour en savoir plus"
     }
   },
+  "contact": "Coordonnées de contact",
+  "button": "Envoyer la demande",
   "form": {
     "value1": "Nom",
     "value2": "BIN ou numéro d'enregistrement de l'entreprise",
     "value3": "Courriel",
     "value4": "Chef d'entreprise"
   },
+  "alert": "La demande a été envoyée !",
   "about": {
     "title": "Consortium international d'investissement\n                          CAC FINENTREP ASPIR (Paris) - TIADA LLP (Almaty)",
     "title2": "Solutions innovantes pour les projets d'investissement au Kazakhstan :\n                          \"investissement international - technologie française\"",
@@ -113,9 +116,69 @@
         "sub1": "financement par emprunt / prêt bancaire",
         "sub2": "participation / achat d'actions",
         "link1": "Présentation du projet",
+        "link1-2": "Indicateurs d'investissement",
         "link2": "Mise en œuvre du projet",
         "link3": "Description du marché",
-        "link4": "Efficacité socio-économique du projet"
+        "link4": "Efficacité socio-économique du projet",
+        "inv": {
+          "item": {
+            "i": "Budget du projet",
+            "l": "3 300 000 ₽"
+          },
+          "item1": {
+            "i": "... dont dépenses d'investissement",
+            "l": "3 300 000 ₽"
+          },
+          "item2": {
+            "i": "Besoin d'investissements extérieurs",
+            "l": "3 300 000  ₽\n100,0% du budget du projet"
+          },
+          "item3": {
+            "i": "Forme de financement requise",
+            "l": "financement par emprunt / prêt bancaire\nparticipation / achat d'actions"
+          },
+          "item4": {
+            "i": "Part des fonds propres dans le budget du projet",
+            "l": "10,0%"
+          },
+          "item5": {
+            "i": "IRR",
+            "l": "21,7%"
+          },
+          "item6": {
+            "i": "NPV",
+            "l": "19 200 000 ₽"
+          },
+          "item7": {
+            "i": "PBP",
+            "l": "100 mois"
+          }
+        },
+        "real": {
+          "item": {
+            "i": "Date estimée de début du projet",
+            "l": "2022"
+          },
+          "item1": {
+            "i": "Date estimée d'atteinte de la capacité opérationnelle",
+            "l": "2024"
+          },
+          "ul": {
+            "title": "Stade actuel de la mise en œuvre",
+            "i1": "Un concept de projet a été développé",
+            "i2": "Idée de projet",
+            "i3": "La documentation relative à la conception et à l'estimation a été élaborée",
+            "i4": "La documentation technique du projet a été préparée"
+          }
+        },
+        "ops": {
+          "item1": "Une étude de marché a-t-elle été réalisée ?",
+          "item2": "propre recherche"
+        },
+        "soc": {
+          "item": "Informations sur le soutien apporté au projet par les ministères et organismes fédéraux et régionaux",
+          "item1": "Intérêt pour le projet de la part du ministère de l'investissement et du développement de la région de Sverdlovsk."
+        }
       },
       "second": {
         "id": 1,
@@ -127,7 +190,49 @@
         "otrasl": "Agriculture, sylviculture, chasse, pêche",
         "desc": "Ce projet concerne la mise en œuvre de mesures d'investissement pour la construction d'un complexe de serres d'un hectare pour la culture de légumes et de cultures de plein champ sur des parcelles irriguées de 65 hectares, ainsi que de raisins de table dans le district de Yeisky de la région de Krasnodar. Le projet est initié par la coopérative d'approvisionnement et de commercialisation des consommateurs agricoles Yeisky AGROSOYUZ. \n\n     La production de légumes en contre-saison n'est possible que dans les zones protégées. La méthode la plus efficace consiste à cultiver des produits agricoles dans des serres industrielles modernes. \n\n     Une serre industrielle moderne est un complexe d'ingénierie et d'équipement technique qui crée des conditions favorables non seulement pour une croissance confortable des plantes, mais qui contribue également à l'obtention de rendements élevés grâce aux techniques agricoles modernes. \n\n     Le projet prévoit également la culture de betteraves, de carottes et de raisins dans le district de Yeisky à l'aide de la technologie néerlandaise. La technologie néerlandaise consiste à cultiver des hybrides de variétés de légumes et de raisins à haut rendement, en utilisant des machines importées et très productives, à savoir des arroseurs de type circulaire.\n\n      Ce plan d'affaires prévoit la construction d'un complexe de serres doté d'équipements de haute technologie pour la culture de légumes dans des zones protégées et l'achat d'un système d'irrigation.\n\nUne étude de faisabilité a été élaborée pour ce projet dont les investissements prévus s'élèvent à 250 millions RUB.  Le montant total du projet est de 325 millions de roubles.",
         "type": "Expansion de la production existante",
-        "sub1": "financement par emprunt / prêt bancaire"
+        "sub1": "financement par emprunt / prêt bancaire",
+        "inv": {
+          "item": {
+            "i": "Budget du projet",
+            "l": "325 000 ₽"
+          },
+          "item1": {
+            "i": "Besoin d'investissements extérieurs",
+            "l": "250 000  ₽\n70,0% du budget du projet"
+          },
+          "item2": {
+            "i": "Forme de financement requise",
+            "l": "financement par emprunt / prêt bancaire"
+          },
+          "item3": {
+            "i": "Part des fonds propres dans le budget du projet",
+            "l": "30,0%"
+          },
+          "item4": {
+            "i": "IRR",
+            "l": "34,8%"
+          },
+          "item5": {
+            "i": "NPV",
+            "l": "73 946 ₽"
+          },
+          "item6": {
+            "i": "PBP",
+            "l": "31 mois"
+          }
+        },
+        "real": {
+          "ul": {
+            "title": "Stade actuel de la mise en œuvre",
+            "i1": "Élaboration d'un plan d'affaires et d'un modèle financier pour le projet",
+            "i2": "Idée de projet",
+            "i3": "Un concept de projet a été développé"
+          }
+        },
+        "ops": {
+          "item1": "Une étude de marché a-t-elle été réalisée ?",
+          "item2": "propre recherche"
+        }
 
       },
       "third": {
@@ -142,7 +247,52 @@
         "type": "Nouvelle construction / démarrage d'une nouvelle production",
         "sub1": "financement par emprunt / prêt bancaire",
         "sub2": "participation / achat d'actions",
-        "otrasl2": "Construction"
+        "otrasl2": "Construction",
+        "inv": {
+          "item": {
+            "i": "Budget du projet",
+            "l": "2 057 000 ₽"
+          },
+          "item1": {
+            "i": "Besoin d'investissements extérieurs",
+            "l": "1 851 000 ₽\n90,0% du budget du projet"
+          },
+          "item2": {
+            "i": "Forme de financement requise",
+            "l": "financement par emprunt / prêt bancaire\nparticipation au capital social / achat d'intérêts"
+          },
+          "item3": {
+            "i": "Part des fonds propres dans le budget du projet",
+            "l": "10,0%"
+          },
+          "item4": {
+            "i": "IRR",
+            "l": "27%"
+          },
+          "item5": {
+            "i": "PBP",
+            "l": "85 mois"
+          }
+        },
+        "real": {
+          "item": {
+            "i": "Date estimée de début du projet",
+            "l": "2022"
+          },
+          "item1": {
+            "i": "Date estimée d'atteinte de la capacité opérationnelle",
+            "l": "2024"
+          },
+          "ul": {
+            "title": "Stade actuel de la mise en œuvre",
+            "i1": "Idée de projet",
+            "i2": "La documentation technique du projet a été préparée",
+            "i3": "Obtention de l'autorisation pour le projet (construction, exploitation, etc.)",
+            "i4": "Élaboration d'un plan d'affaires et d'un modèle financier pour le projet",
+            "i5": "Contrats signés avec les entrepreneurs/fournisseurs",
+            "i6": "Un concept de projet a été développé"
+          }
+        }
       }
     }
   }

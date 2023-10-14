@@ -6,9 +6,19 @@ import {Carousel} from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import {Contact} from "../../components/contact";
 import Form from "../../components/Form";
-import {useState} from "react";
+import React, {useState} from "react";
+import Modal from "../../components/modal/Modal";
+import First from "../../components/firstProjectCard/first";
+import Second from "../../components/firstProjectCard/second";
+import Third from "../../components/firstProjectCard/third";
+import Four from "../../components/firstProjectCard/four";
+
+
+
+
 const FirstProject = () => {
     const [show, setShow] = useState(false)
+    const [modalActive, setModalActive] = useState(false)
     const {t} = useTranslation()
 
     const toggle = () => {
@@ -17,11 +27,10 @@ const FirstProject = () => {
       }else {
           setShow(false);
       }
-      console.log(show)
     }
   return(
       <div className='text-center'>
-          <Navigation/>
+          {modalActive == true ? <></> : <Navigation/>}
           <div style={{paddingBottom: 180}}></div>
           <div className="container">
               <h2 className="section-title resp line-top" style={{color: "#0D47A1",textAlign: "left"}}>{t("projects.project-1.first.title")}</h2>
@@ -82,6 +91,12 @@ const FirstProject = () => {
                       <span style={{whiteSpace: "pre-line", fontSize: 18}}>{t("projects.project-1.first.desc")}</span>
                   </div>
                   <div className="buttons-card">
+                      <Four/>
+                      <First/>
+                      <Second/>
+                      <Third/>
+                  </div>
+                  <div className="buttons-card">
                       <div className="block-about top-card-1" onClick={toggle}>
                           <div className="card-text">
                               {t("projects.project-1.first.link1")}
@@ -89,34 +104,15 @@ const FirstProject = () => {
                           <div className="toggle">
                           </div>
                       </div>
-                      {/*<div className="block-about top-card-2">*/}
-                      {/*    <div className="card-text">*/}
-                      {/*        {t("projects.project-1.first.link2")}*/}
-                      {/*    </div>*/}
-                      {/*    <div className="toggle">*/}
-
-                      {/*    </div>*/}
-                      {/*</div>*/}
-                      {/*<div className="block-about bottom-card-3">*/}
-                      {/*    <div className="card-text">*/}
-                      {/*        {t("projects.project-1.first.link3")}*/}
-                      {/*    </div>*/}
-                      {/*    <div className="toggle">*/}
-
-                      {/*    </div>*/}
-                      {/*</div>*/}
-                      {/*<div className="block-about bottom-card-4">*/}
-                      {/*    <div className="card-text">*/}
-                      {/*        {t("projects.project-1.first.link4")}*/}
-                      {/*    </div>*/}
-                      {/*    <div className="toggle">*/}
-
-                      {/*    </div>*/}
-                      {/*</div>*/}
                   </div>
-                  { show == true ? <Form/> : <></>}
+                  { show == true ? (
+                      <div style={{paddingTop: 50, display: "flex", alignItems: "center", justifyContent: "center"}}>
+                          <Form/>
+                      </div>
+                  ) : <></>}
               </div>
           </div>
+          <Contact/>
       </div>
   )
 }

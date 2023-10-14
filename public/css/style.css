@@ -460,9 +460,18 @@ header .intro-text {
 }
 /* Contact Section */
 #contact {
-  padding: 100px 0 60px;
+  padding: 0px 0 60px;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: rgba(255, 255, 255, 0.75);
+  display: flex;
+  flex-direction: row;
+}
+.setting-contact{
+  display: flex;
+  align-items: center;
+}
+.setting-contact a{
+  color: white;
 }
 #contact .section-title {
   margin-bottom: 40px;
@@ -691,6 +700,13 @@ label {
   }
   .buttons-card{
     flex-direction: column;
+  }
+  .setting-contact{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .section-contact div{
+    margin: 0;
   }
   .block-about{
     width: 100%;
