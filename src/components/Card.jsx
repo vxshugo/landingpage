@@ -16,12 +16,13 @@ const Adress = styled.a`
   
   &::before{
     content: '';
+    display: block;
     position: absolute;
     top: 2px;
     left: 0;
     width: 12px;
     height: 16px;
-    background: url("https://www.investinregions.ru/bitrix/templates/iir/img/marker-blue.svg");
+    background: url("img/testimonials/location-svgrepo-com.svg");
   }
 `
 
@@ -47,7 +48,7 @@ const Button = styled.a`
   color: white;
 `
 
-const Card = ({img,country, title, otrasl, budzhet, count, link}) => {
+const Card = ({img,country, title, otrasl, budzhet, count, link, addresLink}) => {
 
     const {t, i18n} = useTranslation()
 
@@ -60,7 +61,7 @@ const Card = ({img,country, title, otrasl, budzhet, count, link}) => {
           </div>
           <div className="card-body" style={{textAlign: "left", padding: 10}}>
               <div className="price">
-                  <Adress>
+                  <Adress href={addresLink}>
                       {country}
                   </Adress>
               </div>
@@ -75,11 +76,11 @@ const Card = ({img,country, title, otrasl, budzhet, count, link}) => {
               </ul>
               <ul className="details" style={{paddingBottom: 15}}>
                   <li style={{textTransform: "uppercase", fontSize: 12, lineHeight: "15px", color: "#999999"}}>{t("projects.sub2")}</li>
-                  <li style={{color: "black", marginTop: 4, fontWeight: 400, fontSize: 16, lineHeight: "20px", }}>{budzhet} ₽</li>
+                  <li style={{color: "black", marginTop: 4, fontWeight: 400, fontSize: 16, lineHeight: "20px", }}>{budzhet}</li>
               </ul>
               <ul className="details" style={{paddingBottom: 15}}>
                   <li style={{textTransform: "uppercase", fontSize: 12, lineHeight: "15px", color: "#999999"}}>{t("projects.sub3")}</li>
-                  <li style={{color: "black", marginTop: 4, fontWeight: 400, fontSize: 16, lineHeight: "20px", }}>{count} ₽</li>
+                  <li style={{color: "black", marginTop: 4, fontWeight: 400, fontSize: 16, lineHeight: "20px", }}>{count}</li>
               </ul>
 
               <div style={{paddingBottom: 20}}>

@@ -66,22 +66,6 @@ const Four = () => {
                         </td>
                         <td className="value">{t("projects.project-1.first.inv.item5.l")}</td>
                     </tr>
-                    <tr>
-                        <td className="caption">
-                            <div className="name">
-                                {t("projects.project-1.first.inv.item6.i")}
-                            </div>
-                        </td>
-                        <td className="value">{t("projects.project-1.first.inv.item6.l")}</td>
-                    </tr>
-                    <tr>
-                        <td className="caption">
-                            <div className="name">
-                                {t("projects.project-1.first.inv.item7.i")}
-                            </div>
-                        </td>
-                        <td className="value">{t("projects.project-1.first.inv.item7.l")}</td>
-                    </tr>
                 </table>
             </Modal>
         </div>

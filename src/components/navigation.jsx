@@ -53,9 +53,9 @@ export const Navigation = (props) => {
           </div>
           <ul className='nav navbar-nav navbar-right'>
             <li>
-              <a href='#features' className='page-scroll'>
+              <Link to={'/#features'} className='page-scroll'>
                 {t("navigation.navlinks.part1")}
-              </a>
+              </Link>
             </li>
             <li>
               <Link to={'/about'}>

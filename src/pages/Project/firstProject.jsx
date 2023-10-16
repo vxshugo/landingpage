@@ -38,20 +38,20 @@ const FirstProject = () => {
                   <div className="card-img-more">
                       <Carousel>
                           <div>
-                              <img src="https://www.investinregions.ru/upload/iblock/f93/123-_5_.jpg" className="img-responsive"/>
+                              <img src="https://lenobl.ru/media/photo/2019/07/04/General%20Site%20View.jpg-16%3A11%3A16.268923.jpg" className="img-responsive"/>
                           </div>
-                          <div>
-                              <img src="https://www.investinregions.ru/upload/resize_cache/iblock/ffd/864_532_2/123-_4_.jpg" className="img-responsive"/>
-                          </div>
-                          <div>
-                              <img src="https://www.investinregions.ru/upload/iblock/f43/123-_1_.jpg" className="img-responsive"/>
-                          </div>
-                          <div>
-                              <img src="https://www.investinregions.ru/upload/resize_cache/iblock/452/864_532_2/123-_2_.jpg" className="img-responsive"/>
-                          </div>
-                          <div>
-                              <img src="https://www.investinregions.ru/upload/resize_cache/iblock/461/864_532_2/123-_3_.jpg" className="img-responsive"/>
-                          </div>
+                          {/*<div>*/}
+                          {/*    <img src="https://www.investinregions.ru/upload/resize_cache/iblock/ffd/864_532_2/123-_4_.jpg" className="img-responsive"/>*/}
+                          {/*</div>*/}
+                          {/*<div>*/}
+                          {/*    <img src="https://www.investinregions.ru/upload/iblock/f43/123-_1_.jpg" className="img-responsive"/>*/}
+                          {/*</div>*/}
+                          {/*<div>*/}
+                          {/*    <img src="https://www.investinregions.ru/upload/resize_cache/iblock/452/864_532_2/123-_2_.jpg" className="img-responsive"/>*/}
+                          {/*</div>*/}
+                          {/*<div>*/}
+                          {/*    <img src="https://www.investinregions.ru/upload/resize_cache/iblock/461/864_532_2/123-_3_.jpg" className="img-responsive"/>*/}
+                          {/*</div>*/}
                       </Carousel>
                   </div>
                   <div className="card-body" style={{textAlign: "left", padding: 10}}>
@@ -66,11 +66,11 @@ const FirstProject = () => {
                       </ul>
                       <ul className="details" style={{paddingBottom: 15}}>
                           <li style={{textTransform: "uppercase", fontSize: 18, lineHeight: "15px", fontWeight: "bold",color: "#2B2B2B"}}>{t("projects.sub2")}</li>
-                          <li style={{color: "black",marginLeft: 10, marginTop: 10, fontWeight: 400, fontSize: 16, lineHeight: "20px", }}>{t("projects.project-1.first.budzhet")} ₽</li>
+                          <li style={{color: "black",marginLeft: 10, marginTop: 10, fontWeight: 400, fontSize: 16, lineHeight: "20px", }}>{t("projects.project-1.first.budzhet")} </li>
                       </ul>
                       <ul className="details" style={{paddingBottom: 15}}>
                           <li style={{textTransform: "uppercase", fontSize: 18, lineHeight: "15px",fontWeight: "bold", color: "#2B2B2B"}}>{t("projects.sub3")}</li>
-                          <li style={{color: "black",marginLeft: 10, marginTop: 10, fontWeight: 400, fontSize: 16, lineHeight: "20px", }}>{t("projects.project-1.first.count")} ₽</li>
+                          <li style={{color: "black",marginLeft: 10, marginTop: 10, fontWeight: 400, fontSize: 16, lineHeight: "20px", }}>{t("projects.project-1.first.count")} </li>
                       </ul>
                       <ul className="details" style={{paddingBottom: 15}}>
                           <li style={{textTransform: "uppercase", fontSize: 18, lineHeight: "15px",fontWeight: "bold", color: "#2B2B2B"}}>{t("projects.Type")}</li>
@@ -80,8 +80,8 @@ const FirstProject = () => {
 
                       <ul className="details" style={{paddingBottom: 15,paddingTop: 25}}>
                           <li style={{textTransform: "uppercase", fontSize: 18, lineHeight: "22px",fontWeight: "bold", color: "#2B2B2B"}}>{t("projects.sub5")}</li>
-                          <li style={{color: "black",marginLeft: 10, marginTop: 10, fontWeight: 400, fontSize: 16, lineHeight: "20px", }}>- {t("projects.project-1.first.sub1")}</li>
-                          <li style={{color: "black",marginLeft: 10, marginTop: 10, fontWeight: 400, fontSize: 16, lineHeight: "20px", }}>- {t("projects.project-1.first.sub2")}</li>
+                          <li style={{color: "black",marginLeft: 10, marginTop: 10, fontWeight: 400, fontSize: 16, lineHeight: "20px", }}></li>
+                          <li style={{color: "black",marginLeft: 10, marginTop: 10, fontWeight: 400, fontSize: 16, lineHeight: "20px", }}>-1 400 000 000 ЕВРО</li>
                       </ul>
                   </div>
               </div>
